@@ -68,6 +68,12 @@ disableApps=(
   System\ Preferences
   App\ Store
   RayCast
+  访达
+  安装器
+  Tencent\ Lemon
+  NeatDownloadManager
+  飞书会议
+  会议详情
 )
 
 for app in ${disableApps[@]}; do
