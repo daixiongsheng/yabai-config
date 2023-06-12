@@ -73,6 +73,7 @@ disableApps=(
   Tencent\ Lemon
   NeatDownloadManager
   会议详情
+  Simulator
 )
 
 for app in ${disableApps[@]}; do
