@@ -74,6 +74,7 @@ disableApps=(
   NeatDownloadManager
   会议详情
   Simulator
+  LX\ Music
 )
 
 for app in ${disableApps[@]}; do
