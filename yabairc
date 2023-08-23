@@ -74,7 +74,6 @@ disableApps=(
   安装器
   Tencent\ Lemon
   NeatDownloadManager
-  会议详情
   Simulator
   LX\ Music
 )
@@ -83,6 +82,9 @@ for app in ${disableApps[@]}; do
   echo $app
   yabai -m rule --add label="$app" app="$app" manage=off
 done
+
+yabai -m rule --add title="飞书会议" manage=off
+yabai -m rule --add title="会议详情" manage=off
 
 # ===== Signals ================================
 #
