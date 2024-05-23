@@ -79,6 +79,7 @@ disableApps=(
   Charles
   iTerm2
   IINA
+  夸克网盘
 )
 
 for app in ${disableApps[@]}; do
