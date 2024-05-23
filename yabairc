@@ -78,6 +78,7 @@ disableApps=(
   LX\ Music
   Charles
   iTerm2
+  IINA
 )
 
 for app in ${disableApps[@]}; do
